@@ -1,10 +1,10 @@
 @font-face{
     font-family: myradpro;
-    src: url(../fonts/FontsFree-Net-MYRIADPRO-REGULAR.ttf)
+    src: url(FontsFree-Net-MYRIADPRO-REGULAR.ttf)
 }
 @font-face{
     font-family: montserrat;
-    src: url(../fonts/FontsFree-Net-Montserrat-SemiBold.ttf)
+    src: url(FontsFree-Net-Montserrat-SemiBold.ttf)
 }
 .container-fluid{
     position: relative;
