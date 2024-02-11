@@ -1,0 +1,282 @@
+@font-face{
+    font-family: myradpro;
+    src: url(../fonts/FontsFree-Net-MYRIADPRO-REGULAR.ttf)
+}
+@font-face{
+    font-family: montserrat;
+    src: url(../fonts/FontsFree-Net-Montserrat-SemiBold.ttf)
+}
+.container-fluid{
+    position: relative;
+    background-color: #fff;
+    height: 70px;
+}
+body{
+    background-color: #192b35; 
+    padding: 0;
+}
+
+#logo{
+    height: 70px;
+    width: 200px;
+    float: left;
+}
+ul{
+    padding-left: 100px;
+    padding-top: 15px;
+}
+a{
+    text-decoration:none;
+    color: black;
+    font-family: montserrat;
+}
+li{
+    float: left;
+    padding-left: 70px;
+    list-style: none;
+}
+input{
+    margin-left: 90px;
+    margin-top: 25px;
+    width: 250px;
+    border-radius: 10px;
+    height: 20px;
+    text-align: end;
+    padding-right: 30px;
+    font-size: 12pt;
+    float: left;
+}
+#b{
+    height: 30px;
+    padding-top: 23px;
+    padding-left: 20px;
+}
+#gril{
+    height: 500px;
+    position: absolute;
+    top: 110px;
+    right: 200px;
+}
+
+#gril:hover {
+    width: 300px;
+    height: 300px;
+    transition: all 5s;
+  }
+#o{
+    height: 460px;
+    position: absolute;
+    top: 170px;
+    right: 120px;
+}
+#o:hover {
+    width: 300px;
+    height: 460px;
+    transition: all 5s;
+  }
+
+.div2{
+    position: relative;
+}
+#d{
+    width: 140px;
+    position: absolute;
+    top: 70px;
+    right: 1060px;
+}
+#p1{
+    position: absolute;
+    top: 100px;
+    right: 800px;
+    font-size: 18.17pt;
+    padding-left: 70px;
+    width: 400px;
+    color: #0adab9;
+    font-family: myradpro;
+}
+#p2{
+    position: absolute;
+    top: 110px;
+    right: 800px;
+    font-size: 33.91pt;
+    padding-left: 70px;
+    width: 400px;
+    color: #fff;
+    font-family: myradpro;
+}
+#p3{
+    position: absolute;
+    top: 280px;
+    right: 800px;
+    font-size: 12pt;
+    padding-left: 70px;
+    width: 400px;
+    color: #fff;
+    font-family: myradpro;
+}
+button{
+    position: absolute;
+    top: 380px;
+    right: 1070px;
+    font-size: 12pt;
+    width: 130px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #1b202d;
+    color: #ffff;
+    border-color: #fff;
+    font-family: myradpro;
+}
+#j{
+    height: 40px;
+    position: absolute;
+    top: 440px;
+    right: 1140px;
+    background-color: #fff;
+    border-radius: 50%;
+
+}
+#k{
+    height: 40px;
+    position: absolute;
+    top: 440px;
+    right: 1090px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+#l{
+    height: 30px;
+    position: absolute;
+    top: 440px;
+    right: 1040px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+    width: 30px;
+}
+#e{
+    width: 20px;
+    position: absolute;
+    top: 440px;
+    right: 1190px;
+}
+#h{
+    width: 110px;
+    position: absolute;
+    top: 440px;
+    right: 800px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-direction: reverse; 
+}
+@keyframes example {
+    100%  {left:360px; right:0px;}
+}
+#g{
+    width: 110px;
+    position: absolute;
+    top: 420px;
+    right: 760px;
+    animation-name: good;
+    animation-duration: 14s;
+    animation-delay: 10s;
+    animation-direction: reverse; 
+}
+@keyframes good {
+    50%  {top:0px; right:0px;}
+}
+
+#c{
+    width: 60px;
+    position: absolute;
+    top: 290px;
+    right: 760px;
+}
+#f{
+    width: 190px;
+    position: absolute;
+    top: 100px;
+    right: 655px;
+    animation-name: nice;
+    animation-duration: 9s;
+    animation-delay: 12s;
+    animation-direction: reverse; 
+}
+@keyframes nice {
+    100%  {top:600px; bottom:0px;}
+}
+#p4{
+    width: 160px;
+    font-size: 19.08pt;
+    text-align: start;
+    position: absolute;
+    top: 120px;
+    right: 630px;
+    color: #fff;
+    font-family: myradpro;
+}
+#i{
+    width: 210px;
+    position: absolute;
+    top: 180px;
+    right: 1200px;
+}
+#m{
+    width: 290px;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+}
+/*font awsome*/
+.fawsome{
+    position: relative;
+}
+i{
+    height: 20px;
+    width: 20px;
+
+}
+.fa-instagram{
+    background-color: #0adab9;
+    position: absolute;
+    top: 450px;
+    right: 50px;
+    align-items: center;
+    padding-left: 5px;
+    padding-top: 5px;
+    border-radius: 50%;
+}
+.fa-twitter{
+    background-color: #0adab9;
+    position: absolute;
+    top: 490px;
+    right: 50px;
+    align-items: center;
+    padding-left: 5px;
+    padding-top: 5px;
+    border-radius: 50%;
+}
+.fa-facebook-f{
+    background-color: #0adab9;
+    position: absolute;
+    top: 530px;
+    right: 50px;
+    align-items: center;
+    padding-left: 6px;
+    padding-top: 7px;
+    border-radius: 50%;
+}
+.fa-whatsapp{
+    background-color: #0adab9;
+    position: absolute;
+    top: 570px;
+    right: 50px;
+    align-items: center;
+    padding-left: 5px;
+    padding-top: 5px;
+    border-radius: 50%;
+}
+
+
+
+
